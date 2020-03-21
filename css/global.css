@@ -94,7 +94,6 @@ img:not([alt]) {
   }
 }
 
-
 /* Global ----------------------------------------------- */
 
 body {
@@ -127,15 +126,22 @@ hr {
   text-align: center;
 }
 
+h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
 .keylines-line {
   flex: 1 2 6rem;
 }
 
-
 @media (max-width: 48rem) {
   .keylines-text {
-    font-size: 1.4rem;
     margin: 0 .5rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
   }
 
   .keylines-line {
